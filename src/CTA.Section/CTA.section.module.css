@@ -1,0 +1,56 @@
+/*  
+        @media (max-width: 767px) { }          
+        @media (min-width: 768px) and (max-width: 1124px) { }  
+
+*/
+
+.CTASectionBox {
+    display: flex;
+    padding: 150px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: var(--fs-l);
+    text-align: center;
+    margin: 0px;
+}
+.paragraph{
+    font-size: var(--fs-s);
+    text-align: center;
+}
+.buttonsBox {
+    width: 220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.contactButton {
+    padding: 10px 20px;
+    font-size: var(--fs-s);
+    border: 0.5px black solid;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.contactButton:hover {
+    border: 0.5px black solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.exploreButton {
+    padding: 10px 20px;
+    font-size: var(--fs-s);
+    background-color: white;
+    border: 0.5px black solid;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.exploreButton:hover {
+    background-color: rgb(0, 0, 0);
+    border: 0.5px rgb(255, 255, 255) solid;
+    color: white;
+}

@@ -1,0 +1,41 @@
+/*         @media (max-width: 1124px) { }                     */
+
+.aboutSectionBox{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    box-sizing: border-box;
+    @media (min-width: 1125px) {
+        display: flex; 
+        padding: 100px;
+    }
+    display: block;
+}
+.aboutSectionTexts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 100px;
+    @media (max-width: 1124px) { 
+        width: 100%;
+        margin-bottom: 40px;
+    }   
+}
+.aboutSectionTitle {
+    font-size: var(--fs-l);
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 0px;
+    @media (max-width: 1124px) { 
+        font-size: var(--fs-xl);
+    }   
+}
+.aboutSectionPara {
+    font-size: var(--fs-s);
+}
+.aboutSectionImg {
+    width: 50%;
+   aspect-ratio: 1/1; 
+   @media (max-width: 1124px) {width: 100%; }  
+}

@@ -1,0 +1,42 @@
+/*  
+        @media (max-width: 767px) { }          
+        @media (min-width: 768px) and (max-width: 1124px) { }  
+
+*/
+.Footer {
+    padding: 100px;
+    @media (max-width: 767px) { 
+        padding: 20px; 
+        display: block;
+    }
+    box-sizing: border-box;
+    display: flex;
+}
+.contacts{
+    width: 70%;
+}
+.contacts * {
+    margin: 5px 0px;
+}
+.contacts *:nth-child(2), .contacts *:nth-child(4){
+    margin-top: 30px;
+}
+.navigation{
+    width: 30%;
+    box-sizing: border-box;
+    @media (max-width: 767px) { margin-top: 60px;}  
+    font-weight: 500;  
+}
+.navigation * {
+    text-decoration: none;
+    color: black;
+}
+.foot{
+    width: 90%;
+    margin: auto;
+    border-top: 1.5px black solid;
+    padding: clamp(20px, 2vw, 100px);
+    padding-bottom: 50px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
